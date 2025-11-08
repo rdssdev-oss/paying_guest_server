@@ -1,0 +1,102 @@
+[
+  {
+    "tenant_name": "Ravi Sharma",
+    "aadhar_card": "1234-5678-9012",
+    "pan_card": "ABCPR1234D",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India",
+    "occupation": "Software Engineer",
+    "company_id": "INFY00123"
+  },
+  {
+    "tenant_name": "Neha Patel",
+    "aadhar_card": "2345-6789-0123",
+    "pan_card": "BNDPK5678L",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "country": "India",
+    "occupation": "Graphic Designer",
+    "company_id": "TCS00456"
+  },
+  {
+    "tenant_name": "Mohit Verma",
+    "aadhar_card": "3456-7890-1234",
+    "pan_card": "CVTPM3456Q",
+    "city": "Delhi",
+    "state": "Delhi",
+    "country": "India",
+    "occupation": "Financial Analyst",
+    "company_id": "HDFC00892"
+  },
+  {
+    "tenant_name": "Priya Nair",
+    "aadhar_card": "4567-8901-2345",
+    "pan_card": "DKJPN7654B",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "occupation": "HR Manager",
+    "company_id": "IBM00234"
+  },
+  {
+    "tenant_name": "Arjun Singh",
+    "aadhar_card": "5678-9012-3456",
+    "pan_card": "EKMPS9123F",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "country": "India",
+    "occupation": "Sales Executive",
+    "company_id": "RELI00321"
+  },
+  {
+    "tenant_name": "Simran Kaur",
+    "aadhar_card": "6789-0123-4567",
+    "pan_card": "FJTPL7659G",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "country": "India",
+    "occupation": "Teacher",
+    "company_id": "EDUC01001"
+  },
+  {
+    "tenant_name": "Ankit Mehta",
+    "aadhar_card": "7890-1234-5678",
+    "pan_card": "GHTRM2345H",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "country": "India",
+    "occupation": "Architect",
+    "company_id": "DLF00987"
+  },
+  {
+    "tenant_name": "Ritika Das",
+    "aadhar_card": "8901-2345-6789",
+    "pan_card": "HJOPK5674T",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "country": "India",
+    "occupation": "Data Analyst",
+    "company_id": "WIPR00654"
+  },
+  {
+    "tenant_name": "Aman Khan",
+    "aadhar_card": "9012-3456-7890",
+    "pan_card": "JKLRP9832V",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "occupation": "Marketing Specialist",
+    "company_id": "AMAZ00999"
+  },
+  {
+    "tenant_name": "Divya Reddy",
+    "aadhar_card": "0123-4567-8901",
+    "pan_card": "LMNPK2345Z",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "occupation": "UI/UX Designer",
+    "company_id": "ADOBE00123"
+  }
+]

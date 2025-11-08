@@ -1,0 +1,896 @@
+[
+  {
+    "flat_id": "1",
+    "flat_name": "Sunrise Residency A-101",
+    "address": "Plot No. 24, Sector 15, Navi Mumbai, Maharashtra, 400706",
+    "location": "Navi Mumbai",
+    "area_sqft": 850,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ramesh Patil",
+        "contact": "+91-9876543210"
+      },
+      {
+        "category": "Electrician",
+        "name": "Sanjay Kumar",
+        "contact": "+91-9988776655"
+      }
+    ],
+    "maid": {
+      "name": "Lata Devi",
+      "services": ["Cleaning", "Cooking"],
+      "contact": "+91-8877665544"
+    }
+  },
+  {
+    "flat_id": "2",
+    "flat_name": "Green Valley Heights B-204",
+    "address": "Near City Mall, Baner, Pune, Maharashtra, 411045",
+    "location": "Pune",
+    "area_sqft": 1100,
+    "flat_type": "3BHK",
+    "beds": { "bedrooms": 3, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Akash More",
+        "contact": "+91-9090909090"
+      }
+    ],
+    "maid": {
+      "name": "Sushma Bai",
+      "services": ["Cleaning"],
+      "contact": "+91-9123456789"
+    }
+  },
+  {
+    "flat_id": "3",
+    "flat_name": "Ocean View Tower C-503",
+    "address": "Palm Beach Road, Vashi, Navi Mumbai, Maharashtra, 400703",
+    "location": "Navi Mumbai",
+    "area_sqft": 600,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Kiran Joshi",
+        "contact": "+91-9822223344"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "4",
+    "flat_name": "Hilltop Enclave D-701",
+    "address": "Viman Nagar, Pune, Maharashtra, 411014",
+    "location": "Pune",
+    "area_sqft": 1450,
+    "flat_type": "4BHK",
+    "beds": { "bedrooms": 4, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Vivek Pawar",
+        "contact": "+91-9900990099"
+      },
+      {
+        "category": "Electrician",
+        "name": "Ravi Singh",
+        "contact": "+91-9812345678"
+      }
+    ],
+    "maid": {
+      "name": "Kamla Devi",
+      "services": ["Cooking", "Cleaning", "Laundry"],
+      "contact": "+91-8899776655"
+    }
+  },
+  {
+    "flat_id": "5",
+    "flat_name": "Lakeview Residency E-304",
+    "address": "Powai, Mumbai, Maharashtra, 400076",
+    "location": "Mumbai",
+    "area_sqft": 950,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Rohit Deshmukh",
+        "contact": "+91-9811112233"
+      }
+    ],
+    "maid": {
+      "name": "Rekha Bai",
+      "services": ["Cleaning"],
+      "contact": "+91-9812312345"
+    }
+  },
+  {
+    "flat_id": "6",
+    "flat_name": "Skyline Towers F-902",
+    "address": "Kharadi, Pune, Maharashtra, 411014",
+    "location": "Pune",
+    "area_sqft": 750,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Nilesh Patil",
+        "contact": "+91-9900112233"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "7",
+    "flat_name": "Silver Springs G-302",
+    "address": "Hinjewadi, Pune, Maharashtra, 411057",
+    "location": "Pune",
+    "area_sqft": 880,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Rajesh Pawar",
+        "contact": "+91-9922334455"
+      }
+    ],
+    "maid": {
+      "name": "Sunita Bai",
+      "services": ["Cleaning", "Cooking"],
+      "contact": "+91-9887766554"
+    }
+  },
+  {
+    "flat_id": "8",
+    "flat_name": "Golden Heights H-704",
+    "address": "Andheri East, Mumbai, Maharashtra, 400069",
+    "location": "Mumbai",
+    "area_sqft": 1300,
+    "flat_type": "3BHK",
+    "beds": { "bedrooms": 3, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Anil Kumar",
+        "contact": "+91-9765432109"
+      }
+    ],
+    "maid": {
+      "name": "Meena Devi",
+      "services": ["Cooking"],
+      "contact": "+91-9911223344"
+    }
+  },
+  {
+    "flat_id": "9",
+    "flat_name": "Parkview Apartments I-202",
+    "address": "Kondhwa, Pune, Maharashtra, 411048",
+    "location": "Pune",
+    "area_sqft": 780,
+    "flat_type": "1BHK",
+    "beds": { "bedrooms": 1, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Suresh Kale",
+        "contact": "+91-9900887766"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "10",
+    "flat_name": "Emerald Tower J-401",
+    "address": "Whitefield, Bangalore, Karnataka, 560066",
+    "location": "Bangalore",
+    "area_sqft": 1050,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Harish Rao",
+        "contact": "+91-8899776655"
+      }
+    ],
+    "maid": {
+      "name": "Lakshmi",
+      "services": ["Cleaning"],
+      "contact": "+91-9123456780"
+    }
+  },
+  {
+    "flat_id": "11",
+    "flat_name": "Pearl Residency K-103",
+    "address": "Gachibowli, Hyderabad, Telangana, 500032",
+    "location": "Hyderabad",
+    "area_sqft": 970,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Arun Das",
+        "contact": "+91-9011223344"
+      }
+    ],
+    "maid": {
+      "name": "Shanti",
+      "services": ["Cooking"],
+      "contact": "+91-9812345670"
+    }
+  },
+  {
+    "flat_id": "12",
+    "flat_name": "Blue Horizon L-605",
+    "address": "Salt Lake, Kolkata, West Bengal, 700091",
+    "location": "Kolkata",
+    "area_sqft": 890,
+    "flat_type": "1BHK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Sankar Roy",
+        "contact": "+91-9900776655"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "13",
+    "flat_name": "Galaxy Homes M-802",
+    "address": "Patia, Bhubaneswar, Odisha, 751024",
+    "location": "Bhubaneswar",
+    "area_sqft": 780,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Ritesh Behera",
+        "contact": "+91-9023456789"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "14",
+    "flat_name": "Royal Garden N-304",
+    "address": "Vyttila, Kochi, Kerala, 682019",
+    "location": "Kochi",
+    "area_sqft": 980,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Manoj Nair",
+        "contact": "+91-9955112233"
+      }
+    ],
+    "maid": {
+      "name": "Geeta",
+      "services": ["Cleaning", "Cooking"],
+      "contact": "+91-9812456780"
+    }
+  },
+  {
+    "flat_id": "15",
+    "flat_name": "Lotus View O-701",
+    "address": "Civil Lines, Jaipur, Rajasthan, 302006",
+    "location": "Jaipur",
+    "area_sqft": 870,
+    "flat_type": "1BHK",
+    "beds": { "bedrooms": 1, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Naveen Singh",
+        "contact": "+91-9900554433"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "16",
+    "flat_name": "Cityscape P-402",
+    "address": "MG Road, Indore, Madhya Pradesh, 452001",
+    "location": "Indore",
+    "area_sqft": 1200,
+    "flat_type": "3BHK",
+    "beds": { "bedrooms": 3, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Rajiv Malviya",
+        "contact": "+91-9888877766"
+      }
+    ],
+    "maid": {
+      "name": "Rani Bai",
+      "services": ["Cleaning"],
+      "contact": "+91-9998877766"
+    }
+  },
+  {
+    "flat_id": "17",
+    "flat_name": "Emerald Estate Q-305",
+    "address": "Sector 45, Gurugram, Haryana, 122003",
+    "location": "Gurugram",
+    "area_sqft": 1320,
+    "flat_type": "3BHK",
+    "beds": { "bedrooms": 3, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Sumit Chauhan",
+        "contact": "+91-9811332244"
+      }
+    ],
+    "maid": {
+      "name": "Sarla",
+      "services": ["Cooking"],
+      "contact": "+91-9811122334"
+    }
+  },
+  {
+    "flat_id": "18",
+    "flat_name": "Palm Residency R-606",
+    "address": "Anna Nagar, Chennai, Tamil Nadu, 600040",
+    "location": "Chennai",
+    "area_sqft": 990,
+    "flat_type": "2BHK",
+    "beds": { "bedrooms": 2, "beds_in_room": 1, "hall": 1, "beds_in_hall": 2 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Bala Subramanian",
+        "contact": "+91-9022334455"
+      }
+    ],
+    "maid": {
+      "name": "Kala",
+      "services": ["Cleaning"],
+      "contact": "+91-9911332244"
+    }
+  },
+  {
+    "flat_id": "19",
+    "flat_name": "Harmony Heights S-803",
+    "address": "VIP Road, Surat, Gujarat, 395007",
+    "location": "Surat",
+    "area_sqft": 870,
+    "flat_type": "1BHK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 1, "beds_in_hall": 3 },
+    "kitchen": "With Kitchen",
+    "technicians": [
+      {
+        "category": "Electrician",
+        "name": "Dhruv Patel",
+        "contact": "+91-9899988776"
+      }
+    ],
+    "maid": null
+  },
+  {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }, {
+    "flat_id": "20",
+    "flat_name": "Coral Tower T-205",
+    "address": "Bistupur, Jamshedpur, Jharkhand, 831001",
+    "location": "Jamshedpur",
+    "area_sqft": 720,
+    "flat_type": "1RK",
+    "beds": { "bedrooms": 1, "beds_in_room": 2, "hall": 0, "beds_in_hall": 0 },
+    "kitchen": "Without Kitchen",
+    "technicians": [
+      {
+        "category": "Plumber",
+        "name": "Ravi Prasad",
+        "contact": "+91-9799776655"
+      }
+    ],
+    "maid": null
+  }
+]

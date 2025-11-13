@@ -6,7 +6,7 @@ import { AUTH_MESSAGES } from "../config/messages.js";
 
 const generateToken = (user) => {
   const payload = { id: user._id, email: user.email };
-  const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: "1h" });
+  const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: "24h" });
   const refreshToken = jwt.sign(payload, process.env.JWT_SECRET, {
     expiresIn: "7d",
   });
@@ -33,7 +33,8 @@ export const login = async (data) => {
     data.password,
     userWithPass.password
   );
-  if (!validPassword) throw new AppError(AUTH_MESSAGES.INVALID_CREDENTIALS, 401);
+  if (!validPassword)
+    throw new AppError(AUTH_MESSAGES.INVALID_CREDENTIALS, 401);
   const tokens = generateToken(user);
   return { message: AUTH_MESSAGES.LOGIN_SUCCESS, user, ...tokens };
 };

@@ -6,6 +6,7 @@ export const COMMON_MESSAGES = {
 };
 
 export const AUTH_MESSAGES = {
+  UNAUTHORIZED_USER:'Unauthorized user',
   INVALID_CREDENTIALS: "Invalid credentials",
 
   EMAIL_REQUIRED: "Email is required",

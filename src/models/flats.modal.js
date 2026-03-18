@@ -6,17 +6,17 @@ const bedSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     default: () => new mongoose.Types.ObjectId(),
   },
-  bedCategory: {
-    type: String,
-    enum: ["single", "double"],
-    required: true,
-    validate: {
-      validator: function (v) {
-        return v && v.trim().length > 0;
-      },
-      message: "Bed type cannot be empty",
-    },
-  },
+  // bedCategory: {
+  //   type: String,
+  //   enum: ["single", "double"],
+  //   required: true,
+  //   validate: {
+  //     validator: function (v) {
+  //       return v && v.trim().length > 0;
+  //     },
+  //     message: "Bed type cannot be empty",
+  //   },
+  // },
   occupant: {
     label:{
     type: String,
@@ -34,7 +34,7 @@ const BedroomDetailSchema = new mongoose.Schema(
   {
     roomType: {
       type: String,
-      enum: ["master", "common", "guest", "kids"],
+      enum: ["Standard Room", "Compact Room"],
       required: true,
       validate: {
         validator: function (v) {
@@ -43,16 +43,16 @@ const BedroomDetailSchema = new mongoose.Schema(
         message: "Room type cannot be empty",
       },
     },
-    area: {
-      type: String,
-      required: true,
-      validate: {
-        validator: function (v) {
-          return v && v.trim().length > 0;
-        },
-        message: "Area cannot be empty",
-      },
-    },
+    // area: {
+    //   type: String,
+    //   required: true,
+    //   validate: {
+    //     validator: function (v) {
+    //       return v && v.trim().length > 0;
+    //     },
+    //     message: "Area cannot be empty",
+    //   },
+    // },
     attachedBathroom: {
       type: String,
       enum: ["yes", "no"],
@@ -78,7 +78,7 @@ const HallBedSchema = new mongoose.Schema(
       type: mongoose.Schema.Types.ObjectId,
       default: () => new mongoose.Types.ObjectId(),
     },
-    bedCategory: { type: String, enum: ["single", "double"], required: true },
+    // bedCategory: { type: String, enum: ["single", "double"], required: true },
   },
   { _id: false },
 );
@@ -210,10 +210,23 @@ const CreatedBySchema = new mongoose.Schema(
 const SingleFlatSchema = new mongoose.Schema({
   flat_type: {
     type: String,
-    enum: ["1rk", "1bhk", "2bhk", "3bhk", "4bhk", "5bhk"],
+    enum: [
+      "studio",
+      "1rk",
+      "0.5bhk",
+      "1bhk",
+      "1.5bhk",
+      "2bhk",
+      "2.5bhk",
+      "3bhk",
+      "3.5bhk",
+      "4bhk",
+      "5bhk"
+    ],
     required: true,
   },
   flat_number: { type: String, required: true },
+  flat_for:{type: String, enum: ["Boys", "Girls", "Unisex"], required: true},
   flat_wing: {
     type: String,
     required: true,
@@ -224,16 +237,16 @@ const SingleFlatSchema = new mongoose.Schema({
       message: "Flat wing cannot be empty",
     },
   },
-  flat_area: {
-    type: String,
-    required: true,
-    validate: {
-      validator: function (v) {
-        return v && v.trim().length > 0;
-      },
-      message: "Flat area cannot be empty",
-    },
-  },
+  // flat_area: {
+  //   type: String,
+  //   required: true,
+  //   validate: {
+  //     validator: function (v) {
+  //       return v && v.trim().length > 0;
+  //     },
+  //     message: "Flat area cannot be empty",
+  //   },
+  // },
   // balcony: { type: Boolean, required: true },
   flat_description: { type: String },
   bedroom_details: { type: [BedroomDetailSchema], required: true },
@@ -241,6 +254,12 @@ const SingleFlatSchema = new mongoose.Schema({
   hall_beds_count: { type: Number },
   hall_beds: { type: [HallBedSchema] },
   owner_details: { type: OwnerSchema, required: true },
+  assets: [
+    {
+      label: { type: String },
+      value: { type: String }
+    }
+  ]
 });
 
 // Main Building Schema
@@ -287,7 +306,7 @@ const BuildingSchema = new mongoose.Schema(
       },
     },
     flats: { type: [SingleFlatSchema], required: true },
-    available_beds: { type: Number, required: true, min: 0 },
+    // available_beds: { type: Number, required: true, min: 0 },
 
     technicians: { type: [TechnicianSchema] },
     createdBy: { type: CreatedBySchema, required: true },

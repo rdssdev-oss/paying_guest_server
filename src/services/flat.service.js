@@ -23,3 +23,9 @@ export const getFlatById = async (id) => {
   return flatData;
 };
 
+// UPDATE FLAT BY ID
+
+export const updateFlatById = async (id, data) => {
+  const flatData = await Flat.findOneAndUpdate({ _id: id }, { $set: { ...data } }, { new: true });
+  return flatData;
+};

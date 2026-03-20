@@ -58,6 +58,11 @@ const BedroomDetailSchema = new mongoose.Schema(
       enum: ["yes", "no"],
       required: true,
     },
+    isAC: {
+      type: Boolean,
+      required: true,
+    },
+    
     beds: [bedSchema],
     tenantDetails: {
       type: mongoose.Schema.Types.ObjectId,
@@ -73,14 +78,24 @@ const BedroomDetailSchema = new mongoose.Schema(
 
 // Hall bed schema
 const HallBedSchema = new mongoose.Schema(
-  {
-    _id: {
-      type: mongoose.Schema.Types.ObjectId,
-      default: () => new mongoose.Types.ObjectId(),
-    },
+  {occupant: {
+    label:{
+    type: String, 
+    required: function() {
+      return !!this.value; // label is required if value is provided
+  }},
+    value:{type: mongoose.Schema.Types.ObjectId,
+    ref: "User",
+    default: null},
+  }}
+  // },
+  //   _id: {
+  //     type: mongoose.Schema.Types.ObjectId,
+  //     default: () => new mongoose.Types.ObjectId(),
+  //   },
     // bedCategory: { type: String, enum: ["single", "double"], required: true },
-  },
-  { _id: false },
+  // },
+  // { _id: false },
 );
 
 // Owner schema
@@ -164,26 +179,26 @@ const TechnicianSchema = new mongoose.Schema(
         message: "Invalid mobile number format",
       },
     },
-    aadhaar: {
-      type: Number,
-      required: true,
-      validate: {
-        validator: function (v) {
-          return /^\d{12}$/.test(v);
-        },
-        message: "Invalid Aadhaar number format",
-      },
-    },
-    address: {
-      type: String,
-      required: true,
-      validate: {
-        validator: function (v) {
-          return v && v.trim().length > 0;
-        },
-        message: "Address cannot be empty",
-      },
-    },
+    // aadhaar: {
+    //   type: Number,
+    //   required: true,
+    //   validate: {
+    //     validator: function (v) {
+    //       return /^\d{12}$/.test(v);
+    //     },
+    //     message: "Invalid Aadhaar number format",
+    //   },
+    // },
+    // address: {
+    //   type: String,
+    //   required: true,
+    //   validate: {
+    //     validator: function (v) {
+    //       return v && v.trim().length > 0;
+    //     },
+    //     message: "Address cannot be empty",
+    //   },
+    // },
   },
   { _id: false },
 );
@@ -237,16 +252,16 @@ const SingleFlatSchema = new mongoose.Schema({
       message: "Flat wing cannot be empty",
     },
   },
-  // flat_area: {
-  //   type: String,
-  //   required: true,
-  //   validate: {
-  //     validator: function (v) {
-  //       return v && v.trim().length > 0;
-  //     },
-  //     message: "Flat area cannot be empty",
-  //   },
-  // },
+  flat_area: {
+    type: String,
+    required: false,
+    validate: {
+      validator: function (v) {
+        return v && v.trim().length > 0;
+      },
+      message: "Flat area cannot be empty",
+    },
+  },
   // balcony: { type: Boolean, required: true },
   flat_description: { type: String },
   bedroom_details: { type: [BedroomDetailSchema], required: true },
@@ -254,6 +269,7 @@ const SingleFlatSchema = new mongoose.Schema({
   hall_beds_count: { type: Number },
   hall_beds: { type: [HallBedSchema] },
   owner_details: { type: OwnerSchema, required: true },
+  has_kitchen: { type: Boolean, required: true },
   assets: [
     {
       label: { type: String },

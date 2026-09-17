@@ -54,6 +54,7 @@ const referrerSchema = new mongoose.Schema({
 
 const tenantSchema = new mongoose.Schema(
   {
+    organizationId: { type: ObjectId, ref: "Organization", required: true },
     name: { type: String, required: true, trim: true },
     mobile: {
       type: String,
@@ -104,5 +105,9 @@ const tenantSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
+tenantSchema.index({ organizationId: 1, createdAt: -1 });
+tenantSchema.index({ organizationId: 1, "bed.value": 1, isActive: 1 });
+tenantSchema.index({ name: "text", city: "text" });
 
 export default mongoose.model("Tenant", tenantSchema);

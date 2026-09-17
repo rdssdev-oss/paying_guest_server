@@ -4,7 +4,7 @@ export const registerSchema = Joi.object({
   name: Joi.string().min(2).max(20).required(),
   email: Joi.string().email().required(),
   password: Joi.string().min(6).max(15).required(),
-  role: Joi.string().valid('USER', 'ADMIN', 'SUPER_ADMIN'),
+  organizationName: Joi.string().min(2).max(60).optional(),
 });
 
 export const loginSchema = Joi.object({

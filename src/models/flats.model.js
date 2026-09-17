@@ -281,6 +281,11 @@ const SingleFlatSchema = new mongoose.Schema({
 // Main Building Schema
 const BuildingSchema = new mongoose.Schema(
   {
+    organizationId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Organization",
+      required: true,
+    },
     building_name: {
       type: String,
       required: true,
@@ -329,5 +334,8 @@ const BuildingSchema = new mongoose.Schema(
   },
   { timestamps: true },
 );
+
+BuildingSchema.index({ organizationId: 1, createdAt: -1 });
+BuildingSchema.index({ building_name: "text", city: "text" });
 
 export default mongoose.model("Building", BuildingSchema);

@@ -3,7 +3,11 @@ import logger from '../utils/logger.js';
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect(process.env.MONGO_URI, {
+      maxPoolSize: 20,
+      serverSelectionTimeoutMS: 10000,
+      socketTimeoutMS: 45000,
+    });
     logger.info('✅ MongoDB Connected');
   } catch (error) {
     logger.error('❌ MongoDB connection failed', error);

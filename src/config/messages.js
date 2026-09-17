@@ -27,7 +27,8 @@ export const AUTH_MESSAGES = {
   LOGOUT_SUCCESS: "You have successfully logged out",
   LOGOUT_FAILED: "Logout failed. Please try again.",
 
-  USER_EXIST: "User already exist."
+  USER_EXIST: "User already exist.",
+  INVALID_REFRESH_TOKEN: "Invalid or expired refresh token",
 };
 
 

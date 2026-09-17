@@ -1,12 +1,22 @@
 import express from "express";
-import { createFlats, deleteFlatById, getFlats, updateFlatById } from "../../controllers/flats.controller.js";
+import { createFlats, deleteFlatById, getFlatById, getFlats, updateFlatById } from "../../controllers/flats.controller.js";
 import checkAuth from '../../middlewares/checkAuth.middleware.js';
+import checkRole from '../../middlewares/checkRole.middleware.js';
 
 const router = express.Router();
 
-router.post("/flats",checkAuth,createFlats)
-router.get("/flats", checkAuth, getFlats);
-router.put("/flats/:id", checkAuth, updateFlatById);
-router.delete("/flats/:id", checkAuth, deleteFlatById);
+// Apply auth middleware to all routes in this router
+router.use(checkAuth);
+
+router
+  .route("/flats")
+  .get(getFlats)
+  .post(createFlats);
+
+router
+  .route("/flats/:id")
+  .get(getFlatById)
+  .put(updateFlatById)
+  .delete(checkRole("ADMIN", "SUPER_ADMIN"), deleteFlatById);
 
 export default router;
